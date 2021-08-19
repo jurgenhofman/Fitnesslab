@@ -1,0 +1,195 @@
+*{
+    font-family: Lato;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    min-width: 1000px;
+    max-width: 1500px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+@font-face{
+    font-family: Lato;
+    src: url('../fonts/Lato-Medium.ttf');
+}
+
+/*------------------Navigatie ---------------*/
+
+header{
+    background-color: white;
+}
+
+nav{
+    text-align: center;
+    padding-top: 30px;
+ 
+}
+
+#logo{
+    margin-top: 25px;
+    margin-left: 30px;
+    float: left;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    text-decoration: none !important;
+    color: #428bca;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    opacity: 0.7;
+}
+
+#inloggen{
+    float: right;
+    margin-right: 50px;
+}
+/*------------------FOrmulier ---------------*/
+
+form{
+    display: inline;
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    width: 400px;;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: inherit;
+    text-align: center;
+}
+
+/* Set a style for all buttons */
+.aanmeldformulier h2{
+    text-align: center;
+    margin-top: 80px;
+}
+
+button {
+    background-color: #428bca;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.signupbtn {
+    display: inline;
+    width: 20%;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+/*------------------FOOTER---------------*/
+
+footer{
+    width: 100%;
+    background-color: #428bca;
+    padding-top: 30px;
+}
+
+.copyright p{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.sm{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.sm .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+}
+
+.sm .fa:hover {
+    opacity: 0.7;
+}
+
+#fopo1{
+    text-align: center;
+    color: white;
+}
+
+#fopo1 a{
+    text-decoration: none;
+    color: #95999b;
+    margin-left: 290px;
+}
+
+#fopo1 h5{
+    margin-left: 300px;
+}
+
+#fopo1 a:hover{
+    color: white;
+}
+
+#fopo2{
+    text-align: center;
+    color: white;
+}
+
+#fopo2 a{
+    text-decoration: none;
+    color: #95999b;
+    margin-left: 
+}
+
+#fopo2 a:hover{
+    color: white;
+}
+
+#fopo3{
+    text-align: center;
+    color: white;
+}
+
+#fopo3 h5{
+    margin-right: 300px; 
+}
+
+#fopo3 a{
+    text-decoration: none;
+    color: #95999b;
+    margin-right: 300px; 
+}
+
+#fopo3 a:hover{
+    color: white;
+}
+
+#rowfooter{
+    background-color: #4e5051;
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+
+#logofoot{
+    margin-top: 80px;
+}
